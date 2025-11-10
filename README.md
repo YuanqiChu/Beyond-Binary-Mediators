@@ -20,7 +20,7 @@ Analysis of ELSA data (Waves 2-7, n=42,185) examining how living alone affects l
 
 ## Citation
 
-Chu, Y. and Yu, K. (2025). "Beyond Binary Mediators: A Bayesian Mixed-Effects Approach to Joint Causal Mediation Analysis with Ordinal Variables." 
+Chu et al. (2025). "Beyond Binary Mediators: A Bayesian Mixed-Effect Modelling Framework for Understanding Causal Pathways to Loneliness in Late Life." 
 
 ## Requirements
 
