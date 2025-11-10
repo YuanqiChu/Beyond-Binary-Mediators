@@ -3,12 +3,9 @@
 # Implementation of Algorithm 1 (BMEOP) 
 # =============================================================================
 
-# Author: Yuanqi Chu & Keming Yu
-# Affiliation: Department of Mathematics, Brunel University London
-# 
 # This code implements the Bayesian mixed-effects ordered probit (BMEOP) model in
-# Chu, Y. and Yu, K. (2025). "Beyond Binary Mediators: A Bayesian Mixed-Effects
-# Approach to Joint Causal Mediation Analysis with Ordinal Variables."
+# Chu et al. (2025). "Beyond Binary Mediators: A Bayesian Mixed-Effect Modelling Framework 
+# for Understanding Causal Pathways to Loneliness in Late Life."
 # =============================================================================
 
 # Load required packages
