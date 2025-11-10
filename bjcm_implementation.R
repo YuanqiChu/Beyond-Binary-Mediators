@@ -1,6 +1,6 @@
 # Bayesian Joint Causal Mediation Analysis: Algorithm 2
 # Fixed treatment with lagged mediators ensuring proper temporal ordering
-# Reference: Chu & Yu (2025), Algorithm 2
+# Reference: Chu et al. (2025), Algorithm 2
 #
 # Temporal structure: Treatment(W2, fixed) -> Mediators(t-1, lagged) -> Outcome(t, current)
 # This ensures proper causal ordering with temporal precedence
