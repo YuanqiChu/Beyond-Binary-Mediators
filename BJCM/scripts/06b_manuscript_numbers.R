@@ -75,7 +75,7 @@ bjcm_manuscript_numbers <- function(bjcm_raw) {
     cat("coda not available -- skipping ESS.\n\n")
   }
   
-  cat("Copy the numbers above back to Claude to update manuscript.tex.\n")
+  cat("Use the numbers above to update the corresponding values in manuscript.tex.\n")
   
   invisible(NULL)
 }

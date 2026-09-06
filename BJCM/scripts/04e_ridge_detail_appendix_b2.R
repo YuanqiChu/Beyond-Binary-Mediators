@@ -80,8 +80,8 @@ bjcm_ridge_detail <- function(bjcm_raw) {
     )
   }
   
-  cat("\nCopy the printed lines above (or the returned list) back to Claude\n")
-  cat("to update the appendix's BJCM ridge paragraph with these exact numbers.\n")
+  cat("\nUse the printed lines above (or the returned list) to update the\n")
+  cat("appendix's BJCM ridge paragraph with these exact numbers.\n")
   
   invisible(out)
 }
