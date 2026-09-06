@@ -38,6 +38,7 @@ BJCM/
 | 04f | `04f_posterior_predictive_check.R` | Posterior-predictive check of the outcome category distribution (Appendix Figure B.2). |
 | 05a | `05a_mediator_independence_check.R` | Checks the conditional-independence-across-mediators assumption via randomized quantile residuals (Section 5, Discussion). |
 | 05b | `05b_mediator_correlation_sensitivity.R` | Sensitivity of the NIE decomposition to the residual correlation found in 05a. |
+| 05c | `05c_mediator_posterior_predictive_check.R` | Posterior-predictive check of each mediator's category distribution, mirroring `04f`. |
 | 06a | `06a_extract_final_results.R` | Extracts every number the manuscript reports for BJCM (TE/NDE/NIE with CrI, per-mediator paths, decomposition check, E-value) from the saved fit. |
 | 06b | `06b_manuscript_numbers.R` | Same extraction, packaged as a reusable function. |
 | 06c | `06c_figure_b1_trace_diagnostics.R` | Regenerates Appendix Figure B.1 (TE/NDE/NIE trace plots). |
@@ -46,4 +47,5 @@ BJCM/
 ## Results
 
 - `bjcm_full_results.rds` — the fitted model (4 chains).
-- `nie_forest.pdf` / `.png`, `ppc_check.pdf`, `trace_diagnostics.png` — manuscript and appendix figures.
+- `nie_forest.pdf` / `.png`, `ppc_check.pdf`, `mediator_ppc_check.pdf`, `trace_diagnostics.png` — manuscript and appendix figures.
+- `mediator_ppc_table.csv` — the observed-vs-predicted comparison table behind `mediator_ppc_check.pdf`.

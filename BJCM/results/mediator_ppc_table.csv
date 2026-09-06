@@ -1,0 +1,15 @@
+"mediator","category","observed","predicted","lo","hi","diff_pp"
+"Depression (CES-D)",0,43.52,43.41,42.98,43.86,0.11
+"Depression (CES-D)",1,24.2,24.25,23.84,24.66,-0.05
+"Depression (CES-D)",2,10.83,10.98,10.69,11.27,-0.15
+"Depression (CES-D)",3,7.59,7.64,7.4,7.9,-0.05
+"Depression (CES-D)",4,4.95,4.91,4.72,5.12,0.04
+"Depression (CES-D)",5,3.76,3.7,3.52,3.88,0.06
+"Depression (CES-D)",6,2.89,2.83,2.68,2.99,0.06
+"Depression (CES-D)",7,2.26,2.28,2.15,2.42,-0.02
+"Transport mobility",0,81.54,81.55,81.21,81.88,-0.02
+"Transport mobility",1,18.46,18.45,18.12,18.79,0.02
+"Mobility limitations",0,65.17,65.27,64.89,65.64,-0.1
+"Mobility limitations",1,13.67,13.78,13.49,14.09,-0.12
+"Mobility limitations",2,7.25,7.16,6.92,7.41,0.09
+"Mobility limitations",3,13.91,13.79,13.51,14.06,0.13
