@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# Restricted-access data: ELSA is a UK Data Service microdata product under
+# an end-user licence that prohibits redistribution. Never commit it.
+# ---------------------------------------------------------------------------
+BJCM/data/*.csv
+BMEOP/data/*.csv
+
+# ---------------------------------------------------------------------------
+# OS / editor / IDE cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+.Rhistory
+.Rapp.history
+*.Rproj.user/
+
+# ---------------------------------------------------------------------------
+# Superseded pre-fix output, kept on the authors' machine for the audit
+# trail but not needed by readers (everything here has been superseded by
+# the corrected re-runs under results/, saved after the MH threshold-order
+# fix described in the two README files).
+# ---------------------------------------------------------------------------
+BJCM/results/archive_pre_orderfix/
+BMEOP/results/archive_pre_orderfix/
+
+# ---------------------------------------------------------------------------
+# Large / regenerable files GitHub's 100MB limit rejects, or that are pure
+# run-time diagnostics rather than analysis output.
+# ---------------------------------------------------------------------------
+BJCM/results/original_heuristic_validation_result.rds
+BJCM/logs/mh_threshold_logs/*.csv
+BMEOP/logs/mh_threshold_logs/*.csv
+*.log
