@@ -2,7 +2,7 @@
 
 Code accompanying:
 
-> Chu, Y., Yu, K., Rippon, I., Victor, C. (2025). *Beyond Binary Mediators:
+> *Beyond Binary Mediators:
 > A Bayesian Mixed-Effect Modelling Framework for Understanding Causal
 > Pathways to Loneliness in Late Life.*
 
